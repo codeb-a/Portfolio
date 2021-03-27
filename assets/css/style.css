@@ -1,0 +1,25 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: steelblue;
+    font-size: 24px;
+}
+
+
+.text-center {
+    text-align: center;
+}
+.seagreen {
+   background-color:seagreen;
+}
+.w-1\/1 {
+    width: 100%;
+}
+.top {
+    top: 0;
+}
+.pv {
+    padding: 24px 0;
+}
+.pos-s {
+    position: sticky;
+}
