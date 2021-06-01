@@ -1,6 +1,4 @@
-@media(min-width: 768px) {
-
-    * {
+     * {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-color: steelblue;
         font-size: 24px;
@@ -12,7 +10,7 @@
 
     .h1 {
         text-align: center;
-        background-color:seagreen;
+        background-color:rgb(27, 77, 49)
     }
 
     .h2 {
@@ -24,13 +22,7 @@
         flex-direction: column;
     }
 
-    .section-1 {
-        display: flex;
-        flex-direction: column;
-        border: 10px grey solid;
-        padding: 5px;
-        
-    }
+    
 
     .container-1 {
         border: ivory solid;
@@ -40,12 +32,55 @@
     .container-2 {
         border: ivory solid;
         padding: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .container-3 {
         border:ivory solid;
         padding: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
-}
 
+    .about-me{
+        font-size: 50px;
+        color:rgb(27, 77, 49)
+    }
+
+    .my-work {
+        font-size: 50px;
+        color: rgb(27, 77, 49)
+    }
+    .contact-me {
+        font-size: 50px;
+        color: rgb(27, 77, 49)
+    }
+
+    .img-1 {
+        object-fit: contain;
+        width: 100%;
+    }
+
+    .img-2 {
+        object-fit: contain;
+        width: 100%;
+    }
+
+    .footer {
+        border: ivory solid;
+        display: flex;
+        
+    }
+
+    @media (max-width: 375px) {
+        .section-1 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            border: 10px grey solid;
+        }
+    }
   
