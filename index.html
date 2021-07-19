@@ -1,76 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+        integrity="sha384-tKLJeE1ALTUwtXlaGjJYM3sejfssWdAaWR2s97axw4xkiAdMzQjtOjgcyw0Y50KU" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
-    <title>Portfolio website</title>
+    <title>Portfolio</title>
 </head>
+
 <body>
-
-    <nav>
-        <div class="logo">
-            Brandon Akers - Portfolio
-        </div>
-        <ul class="nav-links">
-            <li>
-                <a href="#aboutMe">About Me</a>
-            </li>
-            <li>
-                <a href="#work">Work</a>
-            </li>
-            <li>
-                <a href="#contactMe">Contact Me</a>
-            </li>
-        </ul>
-
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Brandon Akers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#aboutme" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#mywork" class="nav-link">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contactme" class="nav-link">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
+    <!-- About me section-->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Frontend <span class="text-warning">Web Developer</span></h1>
+                    <p class="lead my-4">
+                        “The biggest obstacle I ever faced was my own limited perception of myself.” – RuPaul
+                    </p>
+                    <button class="btn btn-primary btn-lg">See My Work</button>
+                </div>
+                <img class="img-fluid w-25 d-none d-sm-block" src="images/IMG_3010.JPG" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- My work section -->
+    <section class="bg-dark p-5">
+        <div class="container">
+            <div class="row text-start">
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <img class="img-fluid" src="/images/beatwave.png" alt="">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">
+                                Beatwave
+                            </h5>
+                            <p>
 
-<section class="section-1">
-    <div class="container-1">
-        <h1 id="aboutMe" class="about-me">ABOUT ME</h1>
-    </div>
-    <div class="container-2">
-        <h1 id="work" class="my-work">MY WORK</h1>
-        <h2>beatwave</h2>
-        <a href="https://group-proj-1.github.io/beatwave/">view my project!</a>
-        <p>github:</p>
-        <a href="https://github.com/group-proj-1/beatwave">https://github.com/group-proj-1/beatwave </a>
-        <img src="./assets/images/beatwave.png" class="img-1">
-        <br>
-        <h1>Code Quiz</h1>
-        <a href="https://codeb-a.github.io/Code-Quiz/">View my Project!</a>
-        <p>github:</p>
-        <a href="https://github.com/codeb-a/HW4">https://github.com/codeb-a/HW4</a>
-        <img src="./assets/images/code Quiz.png" class="img-2">
-    </div>
-    <div class="container-3">
-        <h1 id="contactMe" class="contact-me">CONTACT ME</h1>
-        <p>Github:</p><a href="https://github.com/codeb-a">https://github.com/codeb-a</a>
-        <p>Linkedin:</p><a href="https://www.linkedin.com/in/b-akers/">https://www.linkedin.com/in/b-akers/</a>
-        <p>Email</p><a href="brandonakers729@gmail.com">brandonakers729@gmail.com</a>
-    </div>
-</section>
+                            </p>
+                            <a href="" class="btn btn-primary">See Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Beatwave
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi qui voluptas beatae
+                                quisquam, possimus illo?
+                            </p>
+                            <a href="" class="btn btn-primary">See Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Beatwave
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi qui voluptas beatae
+                                quisquam, possimus illo?
+                            </p>
+                            <a href="" class="btn btn-primary">See Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact me section -->
+    <section class="p-5">
+        <div class="container">
 
-<script src="./assets/js/script.js"></script>
+        </div>
+    </section>
+    <!-- Particles Background -->
+
+    <!-- <div class="glowing">
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+    </div>
+    <div class="glowing">
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+    </div>
+    <div class="glowing">
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+    </div>
+    <div class="glowing">
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+    </div> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
 </body>
 
-<footer class="footer">
-    
-</footer>
-
-
-
-
-
 </html>
-
-
