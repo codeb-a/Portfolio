@@ -1,7 +1,10 @@
 /* body {
-  overflow: hidden;
-} */
-/* PARTICLES BACKGROUND */
+  height: 100%;
+  background: black;
+  overflow: scroll;
+}
+
+/* PARTICLES BACKGROUND  */
 
 /* .glowing {
   position: relative;
