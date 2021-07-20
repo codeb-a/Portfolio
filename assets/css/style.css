@@ -28,7 +28,7 @@
   }
   body {
     background: url(/assets/images/backgroundpic.jpg);
-    background-size: contain;
+    background-size: cover;
   }
 }
 
