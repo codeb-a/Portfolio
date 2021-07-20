@@ -75,6 +75,7 @@
   width: 100%;
   transition: all 0.9s;
   backface-visibility: hidden;
+  transform-style: preserve-3d;
 }
 
 .card-back .card-body {
