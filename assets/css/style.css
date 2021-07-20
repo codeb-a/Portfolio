@@ -88,12 +88,22 @@
   margin: -15% 0 0 -23%;
 }
 
+/* @media (max-width: 1024px) {
+  .card-container:hover .card-front {
+    display: block;
+  }
+
+  .card-container:hover .card-back {
+    display: block;
+  }
+} */
+
 /* self-portrait */
-img {
+.self-pic {
   border-radius: 50%;
 }
 
-img:hover {
+.self-pic:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
