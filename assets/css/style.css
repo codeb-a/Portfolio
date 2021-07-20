@@ -27,8 +27,7 @@
     display: none;
   }
   body {
-    background: url(/assets/images/backgroundpic.jpg);
-    background-size: cover;
+    background-color: black;
   }
 }
 
