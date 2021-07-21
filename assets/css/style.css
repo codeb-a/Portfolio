@@ -2,6 +2,10 @@
   background-color: black;
 }
 
+/* navbar media query */
+@media() {
+}
+
 /* video background */
 #videobg {
   position: fixed;
