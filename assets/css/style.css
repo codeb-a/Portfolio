@@ -32,6 +32,23 @@
 }
 
 /* Title glow effect */
+.glow-small {
+  color: #fff;
+  animation: glow-small 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow-small {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px cyan, 0 0 40px cyan,
+      0 0 50px cyan, 0 0 60px cyan, 0 0 70px cyan;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px cyan, 0 0 40px cyan, 0 0 50px cyan,
+      0 0 60px cyan, 0 0 70px cyan, 0 0 80px cyan;
+  }
+}
+
 .glow {
   color: #fff;
   animation: glow 1s ease-in-out infinite alternate;
