@@ -2,8 +2,6 @@
   background-color: black;
 }
 
-/* navbar media query */
-
 /* video background */
 #videobg {
   position: fixed;
@@ -24,7 +22,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 374px) {
   #videobg {
     display: none;
   }
