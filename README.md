@@ -6,8 +6,8 @@
 
 This is my personal portfolio where I have showcased my work. I will continue to update this as I work on more applications. Here are a couple screenshots.
 
-![](images/portfolio1.png)
-![](images/portfolio2.png)
+![](assets/images/portfolio1.png)
+![](assets/images/portfolio2.png)
 
 ## Table of Contents
 
